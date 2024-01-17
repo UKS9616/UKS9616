@@ -1,4 +1,4 @@
-package hw1;
+package 1;
 
 /** 
  * This class keeps track of battery's charge level, battery capacity, and checks if the battery is connected
