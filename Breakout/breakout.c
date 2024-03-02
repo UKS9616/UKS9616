@@ -1,9 +1,5 @@
-c//
 // breakout.c
 
-
-// standard libraries
-#define _XOPEN_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,6 +10,7 @@ c//
 #include <spl/gobjects.h>
 #include <spl/gwindow.h>
 
+#define _XOPEN_SOURCE
 // height and width of game's window in pixels
 #define HEIGHT 600
 #define WIDTH 400
@@ -21,13 +18,11 @@ c//
 #define PWIDTH 68
 #define PHEIGHT 10
 
-// number of rows of bricks
+// number of rows and columns of bricks
 #define ROWS 5
-
-// number of columns of bricks
 #define COLS 10
 
-// radius of ball in pixels
+// radius of ball
 #define RADIUS 10
 
 // lives
@@ -291,6 +286,12 @@ GObject detectCollision(GWindow window, GOval ball)
 
     // for checking for collisions
     GObject object;
+   // check for collision at ball's bottom-left corner
+    object = getGObjectAt(window, x, y + 2 * RADIUS);
+    if (object != NULL)
+    {
+        return object;
+    }
 
     // check for collision at ball's top-left corner
     object = getGObjectAt(window, x, y);
@@ -306,12 +307,6 @@ GObject detectCollision(GWindow window, GOval ball)
         return object;
     }
 
-    // check for collision at ball's bottom-left corner
-    object = getGObjectAt(window, x, y + 2 * RADIUS);
-    if (object != NULL)
-    {
-        return object;
-    }
 
     // check for collision at ball's bottom-right corner
     object = getGObjectAt(window, x + 2 * RADIUS, y + 2 * RADIUS);
