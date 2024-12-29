@@ -17,11 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**\
- * Definitions and outline for events entity
- *
- * @author Corey Heithoff
- */
 
 @Entity
 @Table(name="events")
