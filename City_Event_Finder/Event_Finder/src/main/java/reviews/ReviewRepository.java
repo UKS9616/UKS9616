@@ -1,19 +1,16 @@
-package com.coms309.orgs;
+package com.coms309.reviews;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- *
- * @author Corey Heithoff
- */
+
 
 @Repository
-public interface OrgRepository extends JpaRepository<Org, Long>{
-    Org findById(int id);
-    Org findByOrgName(String orgName);
+public interface ReviewRepository extends JpaRepository<Review, Long>{
+    Review findById(int id);
 
     @Transactional
     void deleteById(int id);
 }
+

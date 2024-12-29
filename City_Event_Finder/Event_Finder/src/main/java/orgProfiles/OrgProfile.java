@@ -10,8 +10,6 @@ import java.sql.Blob;
 
 /**\
  * Definitions and outline for organization profile entity
- *
- * @author Corey Heithoff
  */
 
 @Entity

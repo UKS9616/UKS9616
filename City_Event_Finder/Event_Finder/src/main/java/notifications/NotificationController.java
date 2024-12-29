@@ -23,12 +23,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * Controller used for notifications
- *
- * @author Corey Heithoff
- */
-
 @RestController
 @Tag(name = "Notification Controller", description = "Controller for Notification-related operations")
 public class NotificationController {

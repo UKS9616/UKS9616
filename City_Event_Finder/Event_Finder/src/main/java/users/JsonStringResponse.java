@@ -1,11 +1,6 @@
 package com.coms309.users;
 
 
-/**
- *
- * @author Corey Heithoff
- *
- */
 
 public class JsonStringResponse {
     private String strResponse;

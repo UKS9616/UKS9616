@@ -7,10 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- *
- * @author Corey Heithoff
- */
+
 
 @Repository
 public interface NotificationRepository extends JpaRepository<Notification, Long>{

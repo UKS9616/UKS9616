@@ -41,7 +41,7 @@ import java.util.List;
 /**
  * Controller used for event finder
  *
- * @author Corey Heithoff
+ * @author Udip Shrestha
  */
 
 @RestController

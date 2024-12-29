@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * Controller used for organizations
  *
- * @author Corey Heithoff
+ * @author Udip Shrestha
  */
 
 @RestController

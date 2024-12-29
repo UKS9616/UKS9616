@@ -26,8 +26,6 @@ import java.util.List;
 
 /**
  * Controller used for organization profiles
- *
- * @author Corey Heithoff
  */
 
 @RestController

@@ -20,7 +20,7 @@ import java.util.List;
 /**\
  * Definitions and outline for events entity
  *
- * @author Corey Heithoff
+ * @author Udip Shrestha
  */
 
 @Entity

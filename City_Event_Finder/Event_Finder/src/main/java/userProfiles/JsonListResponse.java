@@ -4,11 +4,7 @@ package com.coms309.userProfiles;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Corey Heithoff
- *
- */
+
 
 public class JsonListResponse {
     private List<Integer> listResponse;

@@ -2,11 +2,6 @@ package com.coms309.notifServer;
 
 import jakarta.websocket.Session;
 
-/**
- *
- * @author Corey Heithoff
- *
- */
 
 
 public class UserSession {

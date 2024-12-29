@@ -18,7 +18,7 @@ import java.util.List;
 /**\
  * Definitions and outline for organization entity
  *
- * @author Corey Heithoff
+ * @author Udip Shrestha
  */
 
 @Entity

@@ -8,11 +8,7 @@ import java.util.Date;
 import lombok.Data;
 import lombok.Getter;
 
-/**\
- * Definitions and outline for Notification entity
- *
- * @author Corey Heithoff
- */
+
 
 @Getter
 @Entity

@@ -13,11 +13,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-/**\
- * Definitions and outline for user profile entity
- *
- * @author Corey Heithoff
- */
+
 
 @Entity
 @Table(name="userProfile")

@@ -11,11 +11,7 @@ import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 
-/**\
- * Definitions and outline for review entity
- *
- * @author Corey Heithoff
- */
+
 
 @Entity
 @Table(name="review")
